@@ -36,13 +36,13 @@ const Footer = () => {
         <img
           src={bigCure}
           alt="bigCure"
-          className="absolute bottom-56 left-10 h-28 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
+          className="absolute bottom-56 right-10 h-28 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
         />
-        <img
+        {/* <img
           src={stairs}
           alt="stairs"
           className="absolute bottom-[38rem] right-5 h-28 sm:bottom-72 sm:right-10 sm:h-36 lg:hidden"
-        />
+        /> */}
         <img
           src={arrow}
           alt="arrow"
