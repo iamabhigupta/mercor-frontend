@@ -1,34 +1,34 @@
-import apple from '../assets/apple.svg';
-import playStore from '../assets/playstore.svg';
-import bigCure from '../assets/bigCure.png';
-import arrow from '../assets/arrow.svg';
-import stairs from '../assets/stairs.png';
-import social1 from '../assets/social1.svg';
-import social2 from '../assets/social2.svg';
-import social3 from '../assets/social3.svg';
+import apple from "../assets/apple.svg"
+import playStore from "../assets/playstore.svg"
+import bigCure from "../assets/bigCure.png"
+import arrow from "../assets/arrow.svg"
+import stairs from "../assets/stairs.png"
+import social1 from "../assets/social1.svg"
+import social2 from "../assets/social2.svg"
+import social3 from "../assets/social3.svg"
 
 const Footer = () => {
   return (
     <div>
-      <div className="flex w-full justify-center items-center max-w-7xl mx-auto px-5 py-3">
-        <div className="flex lg:hidden justify-between items-center gap-5 z-10">
-          <button className="h-[44px] bg-black flex items-center border-[1px] rounded-[7px] min-w-[145px] p-[20px]">
+      <div className="mx-auto flex w-full max-w-7xl items-center justify-center px-5 py-3">
+        <div className="z-10 flex items-center justify-between gap-5 lg:hidden">
+          <button className="flex h-[44px] min-w-[145px] items-center rounded-[7px] border-[1px] bg-black p-[20px]">
             <img src={apple} alt="apple" />
-            <span className="text-[12px] font-bold ml-4">APP STORE</span>
+            <span className="ml-4 text-[12px] font-bold">APP STORE</span>
           </button>
-          <button className="h-[44px] bg-black flex items-center border-[1px] rounded-[7px] min-w-[145px] p-[20px]">
+          <button className="flex h-[44px] min-w-[145px] items-center rounded-[7px] border-[1px] bg-black p-[20px]">
             <img src={playStore} alt="apple" />
-            <span className="text-[12px] font-bold ml-4">GOOGLE PLAY</span>
+            <span className="ml-4 text-[12px] font-bold">GOOGLE PLAY</span>
           </button>
         </div>
       </div>
-      <div className="flex w-full relative justify-center lg:justify-between items-center max-w-7xl mx-auto py-5 px-3">
-        <div className="hidden lg:flex justify-between items-center gap-5 z-10">
-          <button className="h-[50px] bg-black flex items-center border-[1px] rounded-[7px] justify-between w-[170px] p-[25px]">
+      <div className="relative mx-auto flex w-full max-w-7xl items-center justify-center px-3 py-5 lg:justify-between">
+        <div className="z-10 hidden items-center justify-between gap-5 lg:flex">
+          <button className="flex h-[50px] w-[170px] items-center justify-between rounded-[7px] border-[1px] bg-black p-[25px]">
             <img src={apple} alt="apple" />
             <span className="text-[14px] font-bold">APP STORE</span>
           </button>
-          <button className="h-[50px] bg-black flex items-center border-[1px] rounded-[7px] justify-between w-[170px] p-[25px]">
+          <button className="flex h-[50px] w-[170px] items-center justify-between rounded-[7px] border-[1px] bg-black p-[25px]">
             <img src={playStore} alt="apple" />
             <span className="text-[14px] font-bold">GOOGLE PLAY</span>
           </button>
@@ -36,21 +36,21 @@ const Footer = () => {
         <img
           src={bigCure}
           alt="bigCure"
-          className="absolute bottom-56 sm:bottom-36 lg:bottom-[3.3rem] left-10 sm:h-36 h-28 lg:left-28"
+          className="absolute bottom-56 left-10 h-28 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
         />
         <img
           src={stairs}
           alt="stairs"
-          className="absolute bottom-[38rem] right-5 sm:bottom-72 lg:hidden sm:right-10 h-28 sm:h-36"
+          className="absolute bottom-[38rem] right-5 h-28 sm:bottom-72 sm:right-10 sm:h-36 lg:hidden"
         />
         <img
           src={arrow}
           alt="arrow"
-          className="absolute bottom-72 sm:bottom-60 lg:bottom-10 right-[50%] left-[50%]"
+          className="absolute bottom-72 left-[50%] right-[50%] sm:bottom-60 lg:bottom-10"
         />
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-7 px-5">
-          <p className="text-[#B6B6B6] text-[10px] leading-[13px] w-full md:w-[500px] lg:w-[363px] text-center md:text-left">
+        <div className="flex flex-col items-center justify-center gap-7 px-5 md:flex-row">
+          <p className="w-full text-center text-[10px] leading-[13px] text-[#B6B6B6] md:w-[500px] md:text-left lg:w-[363px]">
             lBrokerage services by Cash App Investing LLC, member FINRA / SIPC.
             See our BrokerCheck. Investing involves risk; you may lose money.
             Bitcoin trading offered by Cash App. Cash App Investing does not
@@ -58,7 +58,7 @@ const Footer = () => {
             App facilitates banking services through Sutton Bank and Lincoln
             Savings Bank, Members FDIC.
           </p>
-          <div className="flex justify-center items-center gap-5">
+          <div className="flex items-center justify-center gap-5">
             <img src={social1} alt="social1" />
             <img src={social2} alt="social2" />
             <img src={social3} alt="social3" />
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
