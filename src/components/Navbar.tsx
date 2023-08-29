@@ -26,8 +26,8 @@ const smDeviceMenus = [
 
 const Navbar = () => {
   return (
-    <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-3 py-5">
-      <img src={logo} alt="" />
+    <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-5">
+      <img src={logo} alt="logo" />
       <div className="hidden gap-4 text-[12px] font-semibold uppercase leading-[18px] tracking-wider lg:flex">
         {menus.map((menu) => (
           <p key={menu}>{menu}</p>
