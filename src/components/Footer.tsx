@@ -1,8 +1,7 @@
 import apple from "../assets/apple.svg"
-import playStore from "../assets/playstore.svg"
-import bigCure from "../assets/bigCure.png"
 import arrow from "../assets/arrow.svg"
-import stairs from "../assets/stairs.png"
+import bigCure from "../assets/bigCure.png"
+import playStore from "../assets/playstore.svg"
 import social1 from "../assets/social1.svg"
 import social2 from "../assets/social2.svg"
 import social3 from "../assets/social3.svg"
@@ -36,7 +35,7 @@ const Footer = () => {
         <img
           src={bigCure}
           alt="bigCure"
-          className="absolute bottom-56 right-10 h-28 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
+          className="absolute bottom-56 right-10 h-24 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
         />
         {/* <img
           src={stairs}
