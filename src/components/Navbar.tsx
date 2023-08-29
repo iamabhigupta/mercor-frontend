@@ -27,7 +27,7 @@ const smDeviceMenus = [
 const Navbar = () => {
   return (
     <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-5">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className="cursor-pointer" />
       <div className="hidden gap-4 text-[12px] font-semibold uppercase leading-[18px] tracking-wider lg:flex">
         {menus.map((menu) => (
           <p key={menu}>{menu}</p>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <p>Sign in</p>
         <p>Legal</p>
       </div>
-      <img src={eye} alt="eye" className="hidden sm:flex" />
+      <img src={eye} alt="eye" className="hidden cursor-pointer sm:flex" />
       <img
         src={cube}
         alt="Cube"
