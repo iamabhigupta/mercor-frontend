@@ -1,6 +1,6 @@
 # Mercor Project README
 
-![Website Screenshot](/src/assets/cashapp.png)
+![Website Screenshot](https://drive.google.com/file/d/1vfupCwQVTS0kyhcJoKI06QwAxF2GfrR6/view?usp=sharing)
 
 ## Introduction
 
