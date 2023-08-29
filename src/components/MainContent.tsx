@@ -10,7 +10,7 @@ const MainContent = () => {
       <img
         src={phone}
         alt="phone"
-        className="absolute -top-4 right-[4.3rem] h-[220px] w-[200px] sm:-top-10 sm:right-[8rem] sm:h-[370px] sm:w-[300px] lg:right-[9.7rem] lg:h-[413px] lg:w-[355px]"
+        className="absolute -top-4 right-[4.3rem] h-[220px] w-[180px] sm:-top-10 sm:right-[8rem] sm:h-[370px] sm:w-[300px] lg:right-[9.7rem] lg:h-[413px] lg:w-[355px]"
       />
       <h2 className="relative z-50 text-center text-[95px] font-extrabold uppercase leading-none tracking-wider sm:text-[150px] sm:leading-[150px] lg:text-[180px]">
         APP
