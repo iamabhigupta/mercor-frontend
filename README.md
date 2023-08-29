@@ -1,6 +1,6 @@
 # Mercor Project README
 
-![Website Screenshot](https://lh3.googleusercontent.com/amSRUxSgT_DDlZycn8YEz2Z7-EebVXA1f73aer9PmCdb6kJ4oqU42DWESFLZChJFoi10BoQhx7JPNm0ogKKgPfvomik=w640-h400-e365-rj-sc0x00ffffff)
+![0216cefa0ab2389691cb9c6f8afa6eda.png](https://imgtr.ee/images/2023/08/29/0216cefa0ab2389691cb9c6f8afa6eda.png)
 
 ## Introduction
 
