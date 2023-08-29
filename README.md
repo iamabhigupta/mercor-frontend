@@ -1,6 +1,6 @@
 # Mercor Project README
 
-![0216cefa0ab2389691cb9c6f8afa6eda.png](https://imgtr.ee/images/2023/08/29/0216cefa0ab2389691cb9c6f8afa6eda.png)
+![fc02b46a30aafd486174cb9192133ff7.png](https://imgtr.ee/images/2023/08/29/fc02b46a30aafd486174cb9192133ff7.png)
 
 ## Introduction
 

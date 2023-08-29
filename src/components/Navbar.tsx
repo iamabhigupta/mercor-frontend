@@ -51,7 +51,7 @@ const Navbar = () => {
       <img
         src={stairs}
         alt="Stairs"
-        className="absolute right-40 top-16 hidden lg:flex"
+        className="absolute right-20 top-16 hidden lg:flex"
       />
     </div>
   )
