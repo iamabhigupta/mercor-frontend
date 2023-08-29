@@ -1,4 +1,4 @@
-# Mercor Project README
+# Mercor Frontend Project README
 
 ![fc02b46a30aafd486174cb9192133ff7.png](https://imgtr.ee/images/2023/08/29/fc02b46a30aafd486174cb9192133ff7.png)
 
