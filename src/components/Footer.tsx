@@ -3,6 +3,7 @@ import arrow from "../assets/arrow.svg"
 import bigCure from "../assets/bigCure.png"
 import playStore from "../assets/playstore.svg"
 import social1 from "../assets/social1.svg"
+import pillar from "../assets/pillar.png"
 import social2 from "../assets/social2.svg"
 import social3 from "../assets/social3.svg"
 
@@ -35,13 +36,13 @@ const Footer = () => {
         <img
           src={bigCure}
           alt="bigCure"
-          className="absolute bottom-56 right-10 h-24 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
+          className="absolute bottom-56 left-10 h-24 sm:bottom-36 sm:h-36 lg:bottom-[3.3rem] lg:left-28"
         />
-        {/* <img
-          src={stairs}
-          alt="stairs"
-          className="absolute bottom-[38rem] right-5 h-28 sm:bottom-72 sm:right-10 sm:h-36 lg:hidden"
-        /> */}
+        <img
+          src={pillar}
+          alt="pillar"
+          className="absolute -bottom-4 right-1 h-[110px] sm:right-5 sm:h-[329.878px] lg:right-36"
+        />
         <img
           src={arrow}
           alt="arrow"
@@ -49,7 +50,7 @@ const Footer = () => {
         />
 
         <div className="flex flex-col items-center justify-center gap-7 px-5 md:flex-row">
-          <p className="w-full text-center text-[10px] leading-[13px] text-[#B6B6B6] md:w-[500px] md:text-left lg:w-[363px]">
+          <p className="relative z-20 w-full text-center text-[10px] leading-[13px] text-[#B6B6B6] md:w-[500px] md:text-left lg:w-[363px]">
             lBrokerage services by Cash App Investing LLC, member FINRA / SIPC.
             See our BrokerCheck. Investing involves risk; you may lose money.
             Bitcoin trading offered by Cash App. Cash App Investing does not
